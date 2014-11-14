@@ -1,0 +1,6 @@
+eyeD3==0.7.5
+iso8601==0.1.10
+lxml==3.4.0
+plistop==0.1
+python-magic==0.4.6
+wsgiref==0.1.2
