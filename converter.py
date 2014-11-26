@@ -50,9 +50,8 @@ if __name__ == '__main__':
 	if len(sys.argv) >= 2:
 		library = sys.argv[1]
 		if os.path.isfile(library):
-			library_items = get_library_songs(library)
-			c_library_items = list(get_library_songs(library))
-			n_items = len(c_library_items)
+			library_items = list(get_library_songs(library))
+			n_items = len(library_items)
 			map(change_track_tags,library_items)
 		else:
 			print 'File \'%s\' does not exist' % library
